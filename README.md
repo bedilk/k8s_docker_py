@@ -96,52 +96,6 @@ Phonebook Microservice Web Application aims to create a web application with MyS
   - The Application files should be downloaded from Github repo and deployed on EC2 Instance using user data script within cloudformation template.
 
 
-## Project Skeleton
-
-```text
-206-Kubernetes-Microservice-Phonebook (folder)
-
-Initial files:
-
-1. README.md                      # Given to the students (Definition of the project)
-2. Image_for_web_server           # Given to the students (Image components of Python Flask Web API for Update/delete/add record)
-  - app.py      
-  - requirements.txt              
-  - templates
-    - index.html
-    - add-update.html
-    - delete.html
-3. image_for_result_server        # Given to the students (Image components of Python Flask Web API for search record)
-  - app.py           
-  - requirements.txt              
-  - templates
-    - index.html
-
-Requested files:
-
-ADD/DELETE/UPDATE DEPLOYMENT AND SERVICE
-1. Dockerfile                     # To be delivered by students 
-2. web_server_deployment.yml      # To be delivered by students
-3. web_server_service.yaml        # To be delivered by students
-
-SEARCH DEPLOYMENT AND SERVICE
-1. Dockerfile                     # To be delivered by students
-2. result_server_deployment.yml   # To be delivered by students
-3. result_server_service.yaml     # To be delivered by students
-
-DATABASE DEPLOYMENT AND SERVICE
-1. mysql_deployement.yml          # To be delivered by students
-2. mysql_service.yaml             # To be delivered by students
-3. persistent_volume.yaml         # To be delivered by students
-4. persistent_volume_claim.yaml   # To be delivered by students
-
-SECRETS AND CONFIGMAP
-1. mysql-secret.yaml              # To be delivered by students
-2. database_configmap.yaml        # To be delivered by students
-3. servers_configmap.yaml         # To be delivered by students
-
-```
-
 ## Expected Outcome
 
 ### At the end of the project, following topics are to be covered;
